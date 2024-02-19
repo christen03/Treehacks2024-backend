@@ -17,13 +17,9 @@ import uuid
 
 
 # slides_collection = client.create_collection("slides")
-
-
 input_path = os.getcwd()
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
-
-
 def upload_slide(vectorstore, docstore, local_file_path):
 #     """
 #     Upload slide to Chroma

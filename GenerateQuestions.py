@@ -130,3 +130,5 @@ def generate_qa_pairs(text, tables, images, questions_vectorstore):
         qa_pairs.append({"Question": question, "Answer": answer})
 
     return qa_pairs
+
+

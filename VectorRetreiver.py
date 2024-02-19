@@ -145,7 +145,7 @@ def multi_modal_rag_chain(retriever):
     Multi-modal RAG chain
     """
     # Multi-modal LLM
-    model = ChatOpenAI(temperature=0, model="gpt-4-vision-preview", openai_api_key="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", max_tokens=1024)
+    model = ChatOpenAI(temperature=0, model="gpt-4-vision-preview", openai_api_key=openai_api_key, max_tokens=1024)
 
     chain = (
         {
